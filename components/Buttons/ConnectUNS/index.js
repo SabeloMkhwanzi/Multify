@@ -4,7 +4,7 @@ import { Avatar, Button } from "@chakra-ui/react";
 
 const uauth = new UAuth({
   clientID: "8a299016-e842-44c1-a3aa-053bc414b253",
-  redirectUri: "http://localhost:3000/callback",
+  redirectUri: "https://transak-intergration-multify.vercel.app/callback",
 });
 
 function ConnectUNS() {
