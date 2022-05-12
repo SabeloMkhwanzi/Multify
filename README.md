@@ -29,9 +29,9 @@
 - Overview Dashboard
 - Pools
 - Tokens
-- Wallet
+- Transaction History
 - DEX Swap
-- Buy Crypto - Transak
+- Buy Cryptocurrency 
 
 ##### 1. Home Page 
 
