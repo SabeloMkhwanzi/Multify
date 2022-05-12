@@ -1,9 +1,9 @@
 # L2 ROLLATHON - TRANSAK INTERGRATION
 
-<!-- ## The Challenge Description: Build A Multi-Chain Web3 Projects using Covalent API's  -->
-<!-- [HERE](https://gitcoin.co/issue/covalenthq/covalent-gitcoin-bounties/19/100028550) -->
+ ## The Challenge Description: Integrate Transak’s fiat on/off ramp integration into your app and launch it! Transak lets mainstream users buy crypto directly in your app or website with their local fiat currency and payment method. You can onboard more users to crypto and increase your revenue through our super simple developer integration.
+<!-- [HERE](https://gitcoin.co/issue/transak/transak-sdk/11/100028820) -->
 
-## MULITFY - DEFI WEB3 TOOL
+## MULITFY - Web3 DEFI Tool
 
 ### Project Description
 
@@ -12,13 +12,13 @@
 ### Project Concept
 
 - Building a platform that helps users to remain on one platform that providers all the tools needed by Investors, Cryptocurrency holders, traders etc.
-- This project provided a simple way to track, analyse and visualize all data assets.
+- This project provided a simple way to track, analyse and visualize all data assets, track transactions, swap crypto assets and buy cryto.
 
 ## Tools
 
 - Building Framework: [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - Frontend: [Chakra-ui](https://chakra-ui.com/) - Create accessible React apps with speed
-<!-- * Backend: [Covalent Api](https://www.covalenthq.com/) - Covalent provides a unified API bringing visibility to billions of blockchain data points. -->
+- Backend: [Covalent Api](https://www.covalenthq.com/) - Covalent provides a unified API bringing visibility to billions of blockchain data points.
 - Dex Interface: [Uniswap Labs Widgets](https://docs.uniswap.org/sdk/widgets/swap-widget) - Getting Started with the Swap Uniswap Widget.
 - HTTPS and WebSocket Provider: [Infura](https://docs.infura.io/infura/networks/ethereum) - guide on how to use the most versatile blockchain developer platform.
 - Wallet connection: [Wagmi](https://wagmi-xyz.vercel.app/) - is a React Hooks library for Ethereum, built on ethers.js.
@@ -29,17 +29,15 @@
 - Overview Dashboard
 - Pools
 - Tokens
-- Wallet
+- Transaction History
 - DEX Swap
-- Buy Crypto - Transak
+- Buy Cryptocurrency 
 
-### Project Preview - I used the xy=k which is a generalized Uniswap-like endpoints for exchanges on various chains
-
-##### 1. Home Page DarkMode
+##### 1. Home Page 
 
 ![HomePage]()
 
-##### 2. Home Page LightMode
+##### 2. Buy Crypto - Transak Intergration
 
 ![Transak]()
 
@@ -47,11 +45,11 @@
 
 #### GitHub Repository: [github.com/SabeloMkhwanazi](https://github.com/SabeloMkhwanzi/Multify)
 
-#### Demo video: [video](https://youtu.be/FAbeKKlyvFY)
+#### Demo video: [video]()
 
 #### Project Start: Date: 11 May, 2022
 
-#### Wallet Address : 0xc7031F0779F16685055Bc6104894698877Eb3327
+#### Wallet Address : 0xF975206a46b4eD9f5F008AF9813B19bf083d94eE
 
 #### Running the app
 
