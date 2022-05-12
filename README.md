@@ -36,7 +36,7 @@
 
 ##### 1. Buy Crypto - Transak Intergration
 
-![Transak]()
+![Transak](https://github.com/SabeloMkhwanzi/Multify/blob/main/public/Multify-Intergration%20Transak.jpg)
 
 #### Live website: [Multify](https://transak-intergration-multify.vercel.app/)
 
