@@ -3,7 +3,7 @@
  ## The Challenge Description: Integrate Transak’s fiat on/off ramp integration into your app and launch it! Transak lets mainstream users buy crypto directly in your app or website with their local fiat currency and payment method. You can onboard more users to crypto and increase your revenue through our super simple developer integration.
 <!-- [HERE](https://gitcoin.co/issue/transak/transak-sdk/11/100028820) -->
 
-## MULITFY - DEFI WEB3 TOOL
+## MULITFY - Web3 DEFI Tool
 
 ### Project Description
 
