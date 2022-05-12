@@ -1,7 +1,7 @@
 # L2 ROLLATHON - TRANSAK INTERGRATION
 
-<!-- ## The Challenge Description: Build A Multi-Chain Web3 Projects using Covalent API's  -->
-<!-- [HERE](https://gitcoin.co/issue/covalenthq/covalent-gitcoin-bounties/19/100028550) -->
+ ## The Challenge Description: Integrate Transak’s fiat on/off ramp integration into your app and launch it! Transak lets mainstream users buy crypto directly in your app or website with their local fiat currency and payment method. You can onboard more users to crypto and increase your revenue through our super simple developer integration.
+<!-- [HERE](https://gitcoin.co/issue/transak/transak-sdk/11/100028820) -->
 
 ## MULITFY - DEFI WEB3 TOOL
 
@@ -33,13 +33,11 @@
 - DEX Swap
 - Buy Crypto - Transak
 
-### Project Preview - I used the xy=k which is a generalized Uniswap-like endpoints for exchanges on various chains
-
-##### 1. Home Page DarkMode
+##### 1. Home Page 
 
 ![HomePage]()
 
-##### 2. Home Page LightMode
+##### 2. Buy Crypto - Transak Intergration
 
 ![Transak]()
 
@@ -47,11 +45,11 @@
 
 #### GitHub Repository: [github.com/SabeloMkhwanazi](https://github.com/SabeloMkhwanzi/Multify)
 
-#### Demo video: [video](https://youtu.be/FAbeKKlyvFY)
+#### Demo video: [video]()
 
 #### Project Start: Date: 11 May, 2022
 
-#### Wallet Address : 0xc7031F0779F16685055Bc6104894698877Eb3327
+#### Wallet Address : 0xF975206a46b4eD9f5F008AF9813B19bf083d94eE
 
 #### Running the app
 
