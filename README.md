@@ -34,11 +34,7 @@
 - DEX Swap
 - Buy Cryptocurrency
 
-##### 1. Home Page
-
-![HomePage]()
-
-##### 2. Buy Crypto - Transak Intergration
+##### 1. Buy Crypto - Transak Intergration
 
 ![Transak]()
 
