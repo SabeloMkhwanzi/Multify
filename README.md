@@ -18,7 +18,7 @@
 
 - Building Framework: [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - Frontend: [Chakra-ui](https://chakra-ui.com/) - Create accessible React apps with speed
-<!-- * Backend: [Covalent Api](https://www.covalenthq.com/) - Covalent provides a unified API bringing visibility to billions of blockchain data points. -->
+- Backend: [Covalent Api](https://www.covalenthq.com/) - Covalent provides a unified API bringing visibility to billions of blockchain data points.
 - Dex Interface: [Uniswap Labs Widgets](https://docs.uniswap.org/sdk/widgets/swap-widget) - Getting Started with the Swap Uniswap Widget.
 - HTTPS and WebSocket Provider: [Infura](https://docs.infura.io/infura/networks/ethereum) - guide on how to use the most versatile blockchain developer platform.
 - Wallet connection: [Wagmi](https://wagmi-xyz.vercel.app/) - is a React Hooks library for Ethereum, built on ethers.js.
