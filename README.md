@@ -42,7 +42,7 @@
 
 #### GitHub Repository: [github.com/SabeloMkhwanazi](https://github.com/SabeloMkhwanzi/Multify)
 
-#### Demo video: [video]()
+#### Demo video: [video](https://youtu.be/oZdKPyr0rqA)
 
 #### Project Start: Date: 11 May, 2022
 
