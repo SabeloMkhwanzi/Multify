@@ -12,7 +12,7 @@
 ### Project Concept
 
 - Building a platform that helps users to remain on one platform that providers all the tools needed by Investors, Cryptocurrency holders, traders etc.
-- This project provided a simple way to track, analyse and visualize all data assets.
+- This project provided a simple way to track, analyse and visualize all data assets, track transactions, swap crypto assets and buy cryto.
 
 ## Tools
 
