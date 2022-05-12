@@ -40,7 +40,8 @@
     "components/DefiInterfaces/SwapInterface/DexTokens/index.js",
     "components/DefiInterfaces/DexSwapLayout/SwapInterface/index.tsx",
     "components/Category/DexSelectBtn/index.js",
-    "components/DefiInterfaces/BuyCrypto/index.js"
+    "components/DefiInterfaces/BuyCrypto/index.js",
+    "components/Buttons/ConnectUNS/index.js"
   ],
   "exclude": ["node_modules"]
 }

@@ -15,8 +15,7 @@ import {
 import { useForm } from "react-hook-form";
 
 export default function SelectButton(props) {
-  const BoxBgColor = useColorModeValue("gray.200", "#243036");
-  // const BoxBorderColor = useColorModeValue("gray.200", "gray.500");
+  //const BoxBgColor = useColorModeValue("gray.200", "#243036");
   const ButtonColorMode = useColorModeValue("#319795", "#00AF91");
   const ButtonColorMode1 = useColorModeValue("gray.300", "#303E46");
   const ButtonBorderColorMode1 = useColorModeValue("gray.300", "gray.600");
@@ -35,24 +34,22 @@ export default function SelectButton(props) {
   }, []);
 
   return (
-    <Flex
-      justifyContent="left"
-      my={1}
-      mb={4}
-      py={1}
-      //bg={BoxBgColor}
-      //borderColor={BoxBorderColor}
-      //borderRightWidth="1px"
-      //borderRadius="xl"
-      maxW="xl"
-    >
+    <Flex justifyContent="left" my={1} mb={4} py={1} maxW="xl">
       <Flex mt={5} mx={4}>
         <form onSubmit={props.getApi}>
           <FormControl>
             <Stack spacing={1} direction="row">
               <Select
+                colorScheme="teal"
+                variant="outline"
+                w="4xs"
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+                fontSize={{ base: "md", md: "lg" }}
+                cursor="pointer"
                 textAlign="center"
-                maxW={118}
+                maxW={200}
                 name="chainId"
                 type="number"
                 borderWidth={1}
@@ -105,19 +102,8 @@ export default function SelectButton(props) {
               type="number"
               defaultValue="sushiswap"
             >
-              {/* <Text
-                mb={2}
-                color={"gray.400"}
-                letterSpacing={0.3}
-                fontSize="md"
-                fontWeight="thin"
-                decoration="lightblue"
-                textTransform="uppercase"
-              >
-                Dexes Selection
-              </Text> */}
               <SimpleGrid
-                spacing={10}
+                spacing={5}
                 direction="row"
                 textTransform="uppercase"
                 fontWeight="normal"
@@ -142,15 +128,7 @@ export default function SelectButton(props) {
                 >
                   Sushiswap
                 </Radio>
-                <Radio
-                  size="sm"
-                  colorScheme="orange"
-                  name="dexName"
-                  value="pancakeswap"
-                  borderColor="gray.600"
-                >
-                  Pancakeswap
-                </Radio>
+
                 <Radio
                   size="sm"
                   colorScheme="red"
@@ -170,94 +148,20 @@ export default function SelectButton(props) {
                 >
                   Traderjoe
                 </Radio>
-                {/* <Radio
-                  size="sm"
-                  name="dexName"
-                  colorScheme="green"
-                  value="pangolin"
-                  borderColor="gray.600"
-                >
-                  Pangolin
-                </Radio>
                 <Radio
                   size="sm"
                   colorScheme="orange"
                   name="dexName"
-                  value="spiritswap"
+                  value="pancakeswap"
                   borderColor="gray.600"
                 >
-                  Spiritswap
+                  Pancakeswap
                 </Radio>
-                <Radio
-                  size="sm"
-                  colorScheme="red"
-                  name="dexName"
-                  value="spookyswap"
-                  borderColor="gray.600"
-                >
-                  Spookyswap
-                </Radio> */}
-                {/* <Radio
-                  size="sm"
-                  colorScheme="orange"
-                  name="dexName"
-                  value="standard"
-                  borderColor="gray.600"
-                >
-                  Standard
-                </Radio> */}
-                {/* <Radio
-                  size="sm"
-                  colorScheme="red"
-                  name="dexName"
-                  value="apeswap"
-                  borderColor="gray.600"
-                >
-                  Apeswap
-                </Radio> */}
-                {/* <Radio
-                  size="sm"
-                  name="dexName"
-                  colorScheme="green"
-                  value="apeswap_v2"
-                  borderColor="gray.600"
-                >
-                  Katana
-                </Radio> */}
-                {/* <Radio
-                  size="sm"
-                  colorScheme="orange"
-                  name="dexName"
-                  value="katana"
-                  borderColor="gray.600"
-                >
-                  Stellaswap
-                </Radio> */}
-                {/* <Radio
-                  size="sm"
-                  colorScheme="red"
-                  name="dexName"
-                  value="beamswap"
-                  borderColor="gray.600"
-                >
-                  Beamswap
-                </Radio> */}
               </SimpleGrid>
             </RadioGroup>
           </Box>
         </form>
       </Flex>
-      {/* <Box
-        borderColor="gray.600"
-        alignContent="space-between"
-        mx={6}
-        maxWidth={180}
-      >
-        <Divider />
-      </Box> */}
-      {/* <Flex mx="16" bottom={1} pos="fixed">
-        <Image shadow="xl" width={120} src="/logo.png" alt="covalent logo" />
-      </Flex> */}
     </Flex>
   );
 }

@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Stack } from "@chakra-ui/react";
 
 import DexSelectBtn from "../DexSelectBtn";
 import TokenTable from "./TokenTable";
-//import DexTicker from "../DexTicker";
+import ConnectButton from "../../Buttons/ConnectButton";
+import ConnectUNS from "../../Buttons/ConnectUNS";
 
 //API Key
 const API_KEY = "ckey_4e73d56514984838ab3206fbaf4";
@@ -36,7 +37,6 @@ function Tokens() {
 
   return (
     <>
-      {/* <DexTicker /> */}
       <Box justifyContent="center">
         <Text
           justifyContent="center"
@@ -64,7 +64,13 @@ function Tokens() {
       </Box>
 
       <Box justifyContent="center">
-        <DexSelectBtn getApi={getApi} />
+        <Stack direction="row" spacing="auto">
+          <DexSelectBtn getApi={getApi} />
+          <Stack pt="7" pr="20">
+            <ConnectButton />
+            <ConnectUNS />
+          </Stack>
+        </Stack>
         <TokenTable data={items} />
       </Box>
     </>

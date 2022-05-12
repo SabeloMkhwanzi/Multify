@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Box, Flex, Stack, Text } from "@chakra-ui/react";
+import { Box, Stack, Text } from "@chakra-ui/react";
 import SwapInterface from "./SwapInterface";
-import DexSelectButton from "./DexSelectButton";
 
 //AsPI Key
 const API_KEY = "ckey_4e73d56514984838ab3206fbaf4";

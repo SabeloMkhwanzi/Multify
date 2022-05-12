@@ -6,13 +6,12 @@ import {
   useColorModeValue,
   HStack,
   Badge,
+  Stack,
 } from "@chakra-ui/react";
 import millify from "millify";
-import moment from "moment";
 
 import DexSelectBtn from "../DexSelectBtn";
-import { ConnectButton, LiquidityChart, VolumeChart } from "../..";
-//import DexTicker from "../DexTicker";
+import { ConnectButton, ConnectUNS, LiquidityChart, VolumeChart } from "../..";
 
 //API Key
 const API_KEY = "ckey_4e73d56514984838ab3206fbaf4";
@@ -77,7 +76,10 @@ function Overview() {
       <Box justifyContent="center" mx="24">
         <HStack spacing="auto">
           <DexSelectBtn getApi={getApi} />
-          <ConnectButton />
+          <Stack pt={5}>
+            <ConnectButton />
+            <ConnectUNS />
+          </Stack>
         </HStack>
         <Box>
           <Text
@@ -262,7 +264,7 @@ function Overview() {
         <SimpleGrid
           alignContent="center"
           columns={[1, null, 2]}
-          mt={15}
+          mt={5}
           spacing={5}
         >
           {/* <Box>
@@ -292,7 +294,7 @@ function Overview() {
             borderRadius="lg"
             borderWidth={1}
             borderColor={BoxBorderColor}
-            h="500px"
+            h="450px"
             minW="100%"
           >
             <LiquidityChart liquid={liquidData} />
@@ -322,7 +324,7 @@ function Overview() {
             borderRadius="lg"
             borderWidth={1}
             borderColor={BoxBorderColor}
-            h="500px"
+            h="450px"
             minW="100%"
           >
             <VolumeChart Volume={VolumeData} />

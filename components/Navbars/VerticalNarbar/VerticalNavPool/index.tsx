@@ -131,7 +131,7 @@ export default function VerticalNarbar() {
         </NavItem>
         <NavItem icon={BsCurrencyBitcoin}>
           <Link href="/transak">
-            <Text>Buy BuyCrypto</Text>
+            <Text>Buy Crypto</Text>
           </Link>
         </NavItem>
       </Flex>

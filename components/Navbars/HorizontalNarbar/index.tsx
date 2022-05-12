@@ -25,6 +25,7 @@ import { BsCurrencyBitcoin } from "react-icons/bs";
 import { RiExchangeDollarFill } from "react-icons/ri";
 import { AiOutlineMenu } from "react-icons/ai";
 import ConnectButton from "../../Buttons/ConnectButton";
+import ConnectUNS from "../../Buttons/ConnectUNS";
 
 export default function HorizontalNarbar() {
   const bg = useColorModeValue("white", "gray.800");
@@ -201,16 +202,10 @@ export default function HorizontalNarbar() {
               </Button>
             </HStack>
           </HStack>
-          <HStack
-            spacing={3}
-            display={mobileNav.isOpen ? "none" : "flex"}
-            alignItems="center"
-          >
+          <HStack spacing={3} display={mobileNav.isOpen ? "none" : "flex"}>
+            <ConnectUNS />
             <ConnectButton />
             <Switch
-              position="fixed"
-              top="1.5rem"
-              right="3rem"
               colorScheme="teal"
               size="lg"
               isChecked={isDark}

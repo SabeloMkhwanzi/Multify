@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Stack } from "@chakra-ui/react";
 
 import DexSelectBtn from "../DexSelectBtn";
 import PoolTable from "./PoolTable";
-//import DexTicker from "../DexTicker";
+import ConnectButton from "../../Buttons/ConnectButton";
+import ConnectUNS from "../../Buttons/ConnectUNS";
 
 //API Key
 const API_KEY = "ckey_4e73d56514984838ab3206fbaf4";
@@ -35,7 +36,6 @@ function Pools() {
 
   return (
     <>
-      {/* <DexTicker /> */}
       <Box justifyContent="center">
         <Text
           justifyContent="center"
@@ -63,32 +63,16 @@ function Pools() {
       </Box>
 
       <Box justifyContent="center">
-        <DexSelectBtn getApi={getApi} />
+        <Stack direction="row" spacing="auto">
+          <DexSelectBtn getApi={getApi} />
+          <Stack pt="7" pr="20">
+            <ConnectButton />
+            <ConnectUNS />
+          </Stack>
+        </Stack>
         <PoolTable data={items} />
       </Box>
     </>
   );
 }
 export default Pools;
-
-//Pools
-//https://api.covalenthq.com/v1/1/xy=k/uniswap_v2/pools/?quote-currency=USD&format=JSON&key=ckey_4e73d56514984838ab3206fbaf4
-
-// supported DEXes
-//https://api.covalenthq.com/v1/xy=k/supported_dexes/?quote-currency=USD&format=JSON&key=ckey_4e73d56514984838ab3206fbaf4
-
-//pools by address
-//https://api.covalenthq.com/v1/1/xy=k/sushiswap/pools/address/0xdAC17F958D2ee523a2206206994597C13D831ec7/?quote-currency=USD&format=JSON&tickers=usdt&page-number=10&key=ckey_4e73d56514984838ab3206fbaf4
-
-//Summary overview
-
-// health data
-//https://api.covalenthq.com/v1/1/xy=k/uniswap_v2/health/?quote-currency=USD&format=JSON&key=ckey_4e73d56514984838ab3206fbaf4
-
-//ecosystem chart data
-//https://api.covalenthq.com/v1/1/xy=k/uniswap_v2/ecosystem/?quote-currency=USD&format=JSON&key=ckey_4e73d56514984838ab3206fbaf4
-
-// supported DEXes
-//https://api.covalenthq.com/v1/xy=k/supported_dexes/?quote-currency=USD&format=JSON&key=ckey_4e73d56514984838ab3206fbaf4
-
-//xy=k is a generalized Uniswap-like endpoints for exchanges on various chains.

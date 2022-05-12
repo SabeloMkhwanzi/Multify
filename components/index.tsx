@@ -25,3 +25,4 @@ export { default as Transaction } from "./DefiInterfaces/WalletInterface/Transac
 export { default as SwapInterface } from "./DefiInterfaces/DexSwapLayout/SwapInterface";
 export { default as DexSelectButton } from "./DefiInterfaces/DexSwapLayout/DexSelectButton";
 export { default as ConnectButton } from "./Buttons/ConnectButton";
+export { default as ConnectUNS } from "./Buttons/ConnectUNS";
